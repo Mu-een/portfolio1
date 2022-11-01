@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" href="./assets/logo.png">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Mu-een Slamat</title>
 </head>
 <body>
@@ -15,13 +17,9 @@
             <ul class="menu-list">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <div class="dropdown">
-                    <button class="dropbtn">Resume<i class="fa fa-caret-down"></i></button>
-                    <div class="dropdown-content">
-                        <a href="#">Skills</a>
-                        <a href="#">Projects</a>
-                    </div>
-                </div>
+                <li><a href="#resume">Resume</a></li> 
+                <li><a href="#">Skills</a></li> 
+                <li><a href="#">Projects</a></li>
                 <li><a href="#">Testimonials</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -32,32 +30,65 @@
     <section id="home">
         <h1>Mu-een Slamat</h1>
         <h2>Aspiring Web Developer</h2>
+    </section>
+    
+    <!-- About -->
+    <section id="about">
+        <h2>About</h2>
+            <div class="details">
+                <img class="img" src="https://i.postimg.cc/htYNktT9/me.jpg" alt="Mu-een Portfolio">
+                <p> I am a 23 year old learning everything needed to be able to be the best version of myself as a web developer.
+                I am born and bred in Cape Town, South Africa.Currently residing in Athlone.
+                I am a car enthusiast and pop culture fan. I try to stay active by playing soccer, cricket and rugby. I play video games in my free time.  
+                </p>
+            </div>
+    </section>
+    
+    <!-- Resume -->
+    <section id="resume">
+        <h2>Resume</h2><br>
+            <h2>2022</h2>
+                <p>Currently studying Web Development and Programming at Life Choices Coding Academy</p><br>
+            <h2>2021</h2>
+                <p>Studied CCNA and IT Essentials at College of Cape Town</p><br>
+             <h2>October 2019 - January 2020</h2>
+                <p>Worked at Open Box Software as a Junior IT Technician</p>   
+        <br>
         <div>
             <a href="./assets/logo.png" download>
             <button class="cv">Download CV</button>
             </a>
         </div>    
-    </section>
-
-    <!-- About -->
-    <section id="about">
-        <h2>About</h2>
-        <div>
-            <img class="img" src="https://i.postimg.cc/htYNktT9/me.jpg" alt="Mu-een Portfolio">
+    </section><br>
+    
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills</h2><br>
+        <div class="mb-3 text-center">
+            <label>HTML</label>
+            <div class="progress">
+                <div class="progress-bar bg-black" role="progressbar" aria-label="Example with label" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+              </div>   
         </div>
-        <p> I am a 23 year old learning everything needed to be able to be the best version of myself as a web developer.
-            I am born and bred in Cape Town, South Africa.
-            I am a car enthusiast and pop culture fan. I try to stay active by playing soccer and rugby. I play video games in my free time.
-        </p>
+        <div class="mb-3 text-center">
+            <label>CSS</label>
+            <div class="progress">
+                <div class="progress-bar bg-black" role="progressbar" aria-label="Example with label" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+              </div>     
+        </div>
+        <div class="mb-3 text-center">
+            <label>Bootstrap</label>
+            <div class="progress">
+                <div class="progress-bar bg-black" role="progressbar" aria-label="Example with label" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+              </div>        
+        </div>
     </section>
-
-    <!-- Resume -->
-    <section class="resume">
-        <h2>Resume</h2>
-    </section>
+    <!-- Projects -->
     <!-- Testimonials -->
     <!-- Contact -->
     <!-- Footer -->
-    
+
+ <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>   
 </body>
 </html>
