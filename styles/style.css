@@ -47,6 +47,9 @@ body {
 }
 
 /* Landing Page/Home */
+#home {
+    margin-bottom: 400px;
+}
 #home h1 {
     color: black;
     font-size: 100px;
@@ -167,6 +170,21 @@ body {
 /* Projects */
 /* Testimonials */
 /* Contact */
+.form-btn {
+    background-color: #CECECE;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: auto;
+}
+
+.form-btn:hover {
+    background-color: #797979;
+    font-size: 15px;
+}
 /* Footer */
 
 /* Media Query */
