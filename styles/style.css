@@ -49,6 +49,7 @@ body {
 /* Landing Page/Home */
 #home {
     margin-bottom: 400px;
+    scroll-margin-block: 100px;
 }
 #home h1 {
     color: black;
@@ -97,6 +98,7 @@ body {
 /* About */
 #about {
     margin-top: 21%;
+    scroll-margin-block: 75px;
 }
 
 #about h2 {
@@ -131,6 +133,9 @@ body {
     box-shadow: .1vw .1vw .2vw .1vw;
 }
 /* Resume */
+#resume {
+    scroll-margin-block: 75px;
+}
 #resume h2 {
     color: black;
     text-align: center;
@@ -162,14 +167,26 @@ body {
 }
 
 /* Skills */
+#skills {
+    scroll-margin-block: 75px;
+}
 #skills h2 {
     color: black;
     text-align: center;
 }
 
 /* Projects */
+#projects {
+    scroll-margin-block: 75px;
+}
 /* Testimonials */
+#testimonials {
+    scroll-margin-block: 75px;
+}
 /* Contact */
+#contact {
+    scroll-margin-block: 75px;
+}
 .form-btn {
     background-color: #CECECE;
     color: black;
@@ -185,6 +202,7 @@ body {
     background-color: #797979;
     font-size: 15px;
 }
+
 /* Footer */
 
 /* Media Query */
@@ -204,4 +222,17 @@ body {
     #about p {
         font-size: small;  
     }
+}
+
+@media screen and (max-width: 300px){
+    #home h1{
+        font-size: 50px;
+    }
+    .img {
+        width: 15em;
+        height: 21em;
+    }
+    .contact-list {
+        display: contents;
+    }    
 }
